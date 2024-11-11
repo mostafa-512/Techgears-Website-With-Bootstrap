@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand,
+.text-primary {
+  color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #0a58ca !important;
+    border: none;
+  }
+  
+  .nav-link:hover {
+    color: #0a58ca;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  .btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+  
+  .blue-bg {
+    background-color: #0a58ca;
+    color: #fff;
+  }
+
+  .text-primary{
+    color: #257dfd;
+  }
