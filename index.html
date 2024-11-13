@@ -72,23 +72,25 @@
                 <img src="./imgs/img-1.webp" class="img-fluid  mx-auto d-block" alt="img-vr">
             </div>
             <div class="col-12 col-lg-7">
-                <h1 class="text-primary fs-1 fw-bold mb-3">
-                    About TechGear Hub
-
-                </h1>
-                <p>TechGear Hub is at the forefront of technology innovation, curating a collection of the latest
-                    gadgets and accessories to elevate your digital lifestyle. We believe in the power of technology to
-                    enhance everyday experiences, and our mission is to bring cutting-edge products to tech enthusiasts
-                    around the world.
-
-                </p>
-                <p>With a focus on quality, functionality, and style, TechGear Hub sources products from leading
-                    manufacturers and emerging tech innovators. Our team of experts carefully selects each item to
-                    ensure it meets our high standards and aligns with the ever-evolving needs of our diverse community
-                    of customers.
-
-                </p>
-                <button class="btn btn-primary px-5 py-3 d-inline-block fs-5 fw-bold mt-4">Read More About US</button>
+                <div class="text-center text-xl-start text-xxl-start">
+                    <h1 class="text-primary fs-1 fw-bold mb-3">
+                        About TechGear Hub
+    
+                    </h1>
+                    <p>TechGear Hub is at the forefront of technology innovation, curating a collection of the latest
+                        gadgets and accessories to elevate your digital lifestyle. We believe in the power of technology to
+                        enhance everyday experiences, and our mission is to bring cutting-edge products to tech enthusiasts
+                        around the world.
+    
+                    </p>
+                    <p>With a focus on quality, functionality, and style, TechGear Hub sources products from leading
+                        manufacturers and emerging tech innovators. Our team of experts carefully selects each item to
+                        ensure it meets our high standards and aligns with the ever-evolving needs of our diverse community
+                        of customers.
+    
+                    </p>
+                    <button class="btn btn-primary px-5 py-3 d-inline-block fs-5 fw-bold mt-4">Read More About US</button>
+                </div>
             </div>
         </div>
     </section>
@@ -137,16 +139,80 @@
         </div>
     </section>
 
+
+    <section class="secProducts container py-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-primary fs-1 fw-bold mb-3 text-center py-5">
+                    Our Products
+                </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <ul class="nav nav-tabs justify-content-center mt-3 g-2 no-Border" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active fs-5 me-2 me-md-4" id="home-tab" data-bs-toggle="tab"
+                            data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">All</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fs-5 me-2 me-md-4" id="profile-tab" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane"
+                            aria-selected="false">VR Sets</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link fs-5 me-2 me-md-4" id="contact-tab" data-bs-toggle="tab"
+                            data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane"
+                            aria-selected="false">Headsets</button>
+                    </li>
+
+
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/headphones-1.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/vr-1.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/vr-2.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/vr-1.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/vr-2.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div class="row mt-4 g-4">
+                            <div class="col-12 col-lg-4">
+                                <img src="./imgs/headphones-1.webp" alt="headphonesImg" class="img-fluid d-block mx-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script src="./src/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
     <script src="./src/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
